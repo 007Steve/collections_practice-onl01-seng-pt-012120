@@ -9,5 +9,5 @@ def sort_array_desc(array)
     b <=> a
 end
 
-def
+def 
 end
