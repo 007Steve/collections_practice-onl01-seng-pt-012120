@@ -32,7 +32,7 @@ def kesha_maker(array)
   
 end
 
-def find_a
+def find_a(array)
   
   array.keep_if {|arr| arr[0]=="a"}
   
@@ -44,9 +44,9 @@ def sum_array(array)
   array.inject(0){|sum,arr| sum+arr}
 end
   
-  def add_s
+  def add_s(array)
     
-    
+     array.collect{|arr| arr==array[1] ? arr:arr <<"s"}
   end
     
   
